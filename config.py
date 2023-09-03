@@ -12,7 +12,7 @@ class Config(object):
 
     DB_NAME = "production-db"
     DB_USERNAME = "root"
-    DB_PASSWORD = "pianalytix"
+    DB_PASSWORD = "rhitix"
 
     UPLOADS = "/home/username/app/app/static/uploads"
 
@@ -28,7 +28,7 @@ class DevelopmentConfig(Config):
 
     DB_NAME = "production-db"
     DB_USERNAME = "root"
-    DB_PASSWORD = "pianalytix"
+    DB_PASSWORD = "rhitix"
 
     UPLOADS = "/home/username/app/app/static/uploads"
     SESSION_COOKIE_SECURE = False
@@ -39,7 +39,7 @@ class TestingConfig(Config):
 
     DB_NAME = "production-db"
     DB_USERNAME = "root"
-    DB_PASSWORD = "pianalytix"
+    DB_PASSWORD = "rhitix"
 
     UPLOADS = "/home/username/app/app/static/uploads"
     SESSION_COOKIE_SECURE = False
