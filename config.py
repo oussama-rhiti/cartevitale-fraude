@@ -8,7 +8,7 @@ class Config(object):
     
     basedir    = os.path.abspath(os.path.dirname(__file__))
 
-    SECRET_KEY = 'pianalytix'
+    SECRET_KEY = 'rhitix'
 
     DB_NAME = "production-db"
     DB_USERNAME = "root"
